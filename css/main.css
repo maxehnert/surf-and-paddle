@@ -1,0 +1,69 @@
+head{font-family: Oswald, sans-serif;}
+
+.Header{
+  float:left;
+  position:relative;
+  overflow:auto;
+  font-family: Oswald, sans-serif;
+  background-image: url("../img/header.jpg");
+  width:1300px;
+  height:523px;
+
+}
+
+ul{
+  list-style:none;
+  float:left;
+}
+
+li{
+  list-style:none;
+  margin:0px;
+  display:inline-block;
+}
+
+/* .header-overlay{
+  float:left;
+  position:relative;
+} */
+
+ul.top-functions{
+  /* float:left; */
+  /* display:inline-block; */
+  position:relative;
+  top:-6px;
+  padding-left:140px;
+  /* text-align:center; */
+}
+
+.as{
+  text-align:right;
+  margin-left:568px;
+  padding:0px;
+  font-size:1.25em;
+
+}
+
+.top-heading {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding-bottom: 32px;
+
+}
+
+.sp-title{
+  display:inline-block;
+  position:relative;
+  text-align:center;
+  top:66px;
+  left:300px;
+  margin:0px;
+  padding:0px;
+}
+
+.site-title{
+  font-size:6.5em;
+  margin:0px;
+  padding:0px;
+}
