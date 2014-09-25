@@ -1,4 +1,6 @@
-head{font-family: Oswald, sans-serif;}
+head{
+  font-family: Oswald, sans-serif;
+}
 
 .Header{
   float:left;
@@ -8,7 +10,6 @@ head{font-family: Oswald, sans-serif;}
   background-image: url("../img/header.jpg");
   width:1300px;
   height:523px;
-
 }
 
 ul{
@@ -22,26 +23,22 @@ li{
   display:inline-block;
 }
 
-/* .header-overlay{
-  float:left;
-  position:relative;
-} */
-
 ul.top-functions{
-  /* float:left; */
-  /* display:inline-block; */
   position:relative;
   top:-6px;
   padding-left:140px;
-  /* text-align:center; */
 }
 
 .as{
   text-align:right;
-  margin-left:568px;
+  margin-left:635px;
   padding:0px;
-  font-size:1.25em;
+  font-size:1.1em;
+  margin-bottom:50px;
+}
 
+.as span span{
+  margin-left:20px;
 }
 
 .top-heading {
@@ -49,21 +46,36 @@ ul.top-functions{
   position: relative;
   vertical-align: middle;
   padding-bottom: 32px;
-
+  font-weight: 400;
+  margin-left: 12px;
 }
 
 .sp-title{
-  display:inline-block;
-  position:relative;
-  text-align:center;
-  top:66px;
-  left:300px;
-  margin:0px;
-  padding:0px;
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 0px;
 }
 
 .site-title{
-  font-size:6.5em;
-  margin:0px;
-  padding:0px;
+  font-size: 5.4em;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.site-title-footer{
+  margin-top:-13px;
+}
+
+.main-body{
+  float:left;
+  margin:0px auto;
+  width:100%;
+}
+
+.article-title{
+  color:;
 }
