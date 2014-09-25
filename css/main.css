@@ -1,5 +1,5 @@
 head{
-  font-family: Oswald, sans-serif;
+  font-family: Oswald, sans-serif, 'Open sans';
 }
 
 .Header{
@@ -10,11 +10,11 @@ head{
   background-image: url("../img/header.jpg");
   width:1300px;
   height:523px;
+  margin-top:-13px;
 }
 
 ul{
   list-style:none;
-  float:left;
 }
 
 li{
@@ -73,9 +73,12 @@ ul.top-functions{
 .main-body{
   float:left;
   margin:0px auto;
-  width:100%;
+  width:50%;
+  text-align:center;
 }
 
 .article-title{
-  color:;
+  font-family: Oswald, sans-serif, 'Open sans';
+  font-weight: 100;
+  font-size:100px;
 }
