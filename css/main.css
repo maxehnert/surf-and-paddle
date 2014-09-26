@@ -24,7 +24,7 @@ ul{
 
 li{
   list-style:none;
-  margin:0px;
+  /* margin:0px; */
   display:inline-block;
 }
 
@@ -86,28 +86,41 @@ ul.top-functions{
 
 .article-title{
   font-family: Oswald, sans-serif, 'Open sans';
-  font-weight: 400;
-  font-size:60px;
-  margin-bottom: 0px;
-  padding-left:130px;
   color: hsla(222, 86%, 21%, 1);
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 1.1;
+  margin-bottom: 0px;
+  padding-left: 122px;
+  padding-top: 21px;
 }
 
 .title-authors{
-  margin-top:0px;
-  float:left;
-  padding-left:160px;
-  font-size:15px;
+  margin-top: 8px;
+float: left;
+position:relative;
+  padding-left: 165px;
+  font-size: 15px;
+}
+
+.title-authors li{
+  /* float:left; */
 }
 
 .title-authors li span img{
+  float:left;
   height:22px;
   width: 22px;
 }
 
-.anne, .date-time{padding-bottom: 5px;}
+.anne,.date-time{
+  postion:absolute;
+  padding-bottom: 5px;
+}
 
-.anne{color:hsla(222, 57%, 29%, 1);}
+.anne{
+
+  color:hsla(222, 57%, 29%, 1);}
 
 .date-time{
   padding-left:25px;
