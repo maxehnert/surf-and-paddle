@@ -2,6 +2,8 @@ head{
   font-family: Oswald, sans-serif, 'Open sans';
 }
 
+body{margin:0px;}
+
 .Header{
   float:left;
   position:relative;
@@ -79,6 +81,18 @@ ul.top-functions{
 
 .article-title{
   font-family: Oswald, sans-serif, 'Open sans';
-  font-weight: 100;
-  font-size:100px;
+  font-weight: 400;
+  font-size:60px;
+  margin-bottom: 0px;
+  color: hsla(222, 86%, 21%, 1);
+}
+
+.title-authors{
+  margin-top:0px;
+  float:left;
+  padding-left:70px;
+}
+.title-authors li span img{
+  height: 25px;
+  width:25px;
 }
