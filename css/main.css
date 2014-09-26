@@ -97,54 +97,57 @@ ul.top-functions{
 
 .title-authors{
   margin-top: 8px;
-float: left;
-position:relative;
+  float: left;
+  position:relative;
   padding-left: 165px;
   font-size: 15px;
 }
 
 .title-authors li{
-  /* float:left; */
+   float:left;
 }
 
-.title-authors li span img{
+.title-authors li img{
   float:left;
   height:22px;
   width: 22px;
 }
 
-.anne,.date-time{
+/* .anne,.date-time{
   postion:absolute;
   padding-bottom: 5px;
-}
+} */
 
 .anne{
-
+  padding-top: 5px;
+  padding-left: 7px;
   color:hsla(222, 57%, 29%, 1);}
 
 .date-time{
-  padding-left:25px;
+  padding-top: 5px;
+  padding-left:12px;
+  float:left;
 }
 
 .content{
-  float:left;
-  text-align:left;
-  padding-left:160px;
+  float: left;
+  text-align: left;
+  padding-left: 162px;
+  padding-top: 6px;
   font-family: Oswald, sans-serif, 'Open sans';
-  color:hsla(0, 0%, 27%, 1);
+  color: hsla(0, 0%, 27%, 1);
   font-weight: 100;
 }
 
 blockquote{
-  font:32px normal sans-serif;
+  font: 32px normal sans-serif;
   color: hsla(205, 67%, 55%, 1);
-  margin-top: 10px;
+  margin-top: 32px;
   margin-bottom: 10px;
-  margin-left: 160px;
+  margin-left: 168px;
   padding-left: 15px;
-  border-left: 3px solid #ccc;
-  float:left;
-  padding:left:165px;
+  border-left: 2px solid #ccc;
+  float: left;
 }
 
 .links{
