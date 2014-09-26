@@ -2,7 +2,10 @@ head{
   font-family: Oswald, sans-serif, 'Open sans';
 }
 
-body{margin:0px;}
+body{
+  margin:0px;
+  padding-top: 21px;
+  padding-left: 9px;}
 
 .Header{
   float:left;
@@ -33,15 +36,14 @@ ul.top-functions{
 
 .as{
   text-align:right;
-  margin-left:635px;
-  padding:0px;
+  float:right;
   font-size:1.1em;
-  margin-bottom:50px;
-}
+  padding-right: 183px;
+  padding-top: 8px;
 
-.as span span{
-  margin-left:20px;
 }
+/* .search{}
+.about{padding-right:1px;} */
 
 .top-heading {
   display: inline-block;
@@ -57,12 +59,12 @@ ul.top-functions{
   text-align: center;
   margin: 0px auto;
   width: 100%;
-  padding-top: 5%;
+  padding-top: 99px;
   padding-left: 0px;
 }
 
 .site-title{
-  font-size: 5.4em;
+  font-size: 5.3em;
   margin: 0px;
   padding: 0px;
   color: white;
@@ -72,10 +74,13 @@ ul.top-functions{
   margin-top:-13px;
 }
 
+
+/* Main Body */
+
 .main-body{
   float:left;
   margin:0px auto;
-  width:50%;
+  width:55%;
   text-align:center;
 }
 
@@ -84,6 +89,7 @@ ul.top-functions{
   font-weight: 400;
   font-size:60px;
   margin-bottom: 0px;
+  padding-left:130px;
   color: hsla(222, 86%, 21%, 1);
 }
 
@@ -95,9 +101,11 @@ ul.top-functions{
 }
 
 .title-authors li span img{
-  height: 25px;
-  width:25px;
+  height:22px;
+  width: 22px;
 }
+
+.anne, .date-time{padding-bottom: 5px;}
 
 .anne{color:hsla(222, 57%, 29%, 1);}
 
@@ -115,10 +123,11 @@ ul.top-functions{
 }
 
 blockquote{
-  font:22px normal sans-serif;
+  font:32px normal sans-serif;
+  color: hsla(205, 67%, 55%, 1);
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 160px;
   padding-left: 15px;
   border-left: 3px solid #ccc;
   float:left;
@@ -127,12 +136,21 @@ blockquote{
 
 .links{
   float:left;
+  height: 25px;
+  vertical-align: center;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.icon-links{
+.links li{
+  background-color: hsla(205, 21%, 55%, 1);
+  height: 30px;
+  padding-top:12px;
+
+}
+.links li img{
+
+  width:15px;
+  height:12px;
   background-color:hsla(0, 0%, 25%, 1);
-}
-
-.link-words{
-  background-color:hsla(0, 0%, 55%, 1);
 }
