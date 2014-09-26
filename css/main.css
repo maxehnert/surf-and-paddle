@@ -5,7 +5,8 @@ head{
 body{
   margin:0px;
   padding-top: 21px;
-  padding-left: 9px;}
+  padding-left: 9px;
+}
 
 .Header{
   float:left;
@@ -42,8 +43,6 @@ ul.top-functions{
   padding-top: 8px;
 
 }
-/* .search{}
-.about{padding-right:1px;} */
 
 .top-heading {
   display: inline-block;
@@ -113,11 +112,6 @@ ul.top-functions{
   width: 22px;
 }
 
-/* .anne,.date-time{
-  postion:absolute;
-  padding-bottom: 5px;
-} */
-
 .anne{
   padding-top: 5px;
   padding-left: 7px;
@@ -140,14 +134,15 @@ ul.top-functions{
 }
 
 blockquote{
-  font: 32px normal sans-serif;
+  font-size: 22px;
   color: hsla(205, 67%, 55%, 1);
-  margin-top: 32px;
+  margin-top: 34px;
   margin-bottom: 10px;
   margin-left: 168px;
   padding-left: 15px;
   border-left: 2px solid #ccc;
   float: left;
+  font-family: Oswald, sans-serif, 'Open sans';
 }
 
 .links{
@@ -210,16 +205,46 @@ blockquote{
 
 /* SIDEBAR */
 
-/* .sidebar{
-  float:right;
-  overflow:auto;
+.sidebar{
+  float: right;
+  overflow: auto;
   position: relative;
+  width: 45%;
+  font-family: Oswald, sans-serif, 'Open sans';
+}
+
+.sidebar-list li{
+  display:block;
 }
 #sb-avatar{
-  float:right;
+  float:left;
 }
-#asd{
-  height:84px;
+
+#avatar-img{
+  padding-left:131px;
+  padding-top:24%;
   width:84px;
+  height:84px;
 }
- */
+
+#sb-anne{
+  padding-left:137px;
+  padding-top:7px;
+  font-size:14px;
+}
+
+#tfi{
+  padding-left:111px;
+  font-size:12px;
+  font-weight:100;
+  padding-top:2px;
+}
+
+#twitter{
+  padding-right:30px;
+  margin-left:-27px;
+}
+
+#facebook{
+  padding-right:31px;
+}
