@@ -160,7 +160,7 @@ blockquote{
   background-color: hsla(205, 21%, 55%, 1);
   height: 30px;
   padding-top:12px;
-  margin-left: -41px;
+  /* margin-left: -41px; */
 
 }
 
@@ -182,13 +182,23 @@ blockquote{
 }
 
 #later-link{
-  width:129px;
-  height:15px;
-  background-color:hsla(0, 0%, 25%, 1);
+  padding-top: 0px;
+  width: 158px;
+/*   width:129px;
+height:15px;
+background-color:hsla(0, 0%, 25%, 1); */
 }
 
 #icon-upload{
+width: 16px;
+height: 15px;
+background-color: hsla(0, 0%, 25%, 1);
+padding: 6.5px;
+float: left;
+}
 
+#read-later{
+  float:right;
 }
 
 #share-link{
