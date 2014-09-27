@@ -273,3 +273,11 @@ blockquote{
   padding-left: 33px;
   color: hsla(205, 67%, 55%, 1);
 }
+
+#sidebar-content{
+  padding-right: 291px;
+  padding-left: 33px;
+  margin-top: -12px;
+  font-weight: 100;
+  color:grey;
+}
