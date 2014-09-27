@@ -221,16 +221,16 @@ blockquote{
 }
 
 #avatar-img{
-  padding-left:131px;
-  padding-top:24%;
-  width:84px;
-  height:84px;
+  padding-left: 130px;
+  padding-top: 22%;
+  width: 84px;
+  height: 84px;
 }
 
 #sb-anne{
-  padding-left:137px;
-  padding-top:7px;
-  font-size:14px;
+  padding-left: 137px;
+  padding-top: 11px;
+  font-size: 14px;
 }
 
 #tfi{
@@ -247,4 +247,29 @@ blockquote{
 
 #facebook{
   padding-right:31px;
+}
+
+.ad-list{
+  padding-bottom: 48px;
+}
+
+#ad-image{
+  padding-left: 33px;
+  padding-top: 4px;
+}
+
+#ad{
+  text-align:right;
+  font-weight:100;
+  text-decoration: underline;
+  font-size: 13px;
+  color: grey;
+  letter-spacing: 1px;
+}
+
+#sidebar-heading{
+  padding-top: 44px;
+  font-size: 18px;
+  padding-left: 33px;
+  color: hsla(205, 67%, 55%, 1);
 }
