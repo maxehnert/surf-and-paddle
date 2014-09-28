@@ -253,7 +253,7 @@ padding: 8.5px;
 }
 
 #share-this-post{
-  
+
 }
 /* SIDEBAR */
 
@@ -265,6 +265,9 @@ padding: 8.5px;
   font-family: Oswald, sans-serif, 'Open sans';
 }
 
+.sidebar-list{
+  margin-left: 4px;
+}
 .sidebar-list li{
   display:block;
 }
