@@ -504,7 +504,6 @@ color: hsla(208, 100%, 26%, 1);
   float: left;
 padding: 30px;
 margin: 0 auto;
-padding-right: 517px;
 background-color: hsla(208, 100%, 18%, 1);
 font-size: 14px;
 color: hsla(208, 26%, 53%, 1);
@@ -520,4 +519,14 @@ margin-top: -4px;
 
 .tiy-copyright{
   margin-left: 8px;
+}
+
+.nav-items{
+  padding-left:417px;
+float: right;
+position: relative;
+}
+
+.nav-item-1, .nav-item-2, .nav-item-3{
+  border-right: 1px solid grey;
 }
