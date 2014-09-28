@@ -336,3 +336,40 @@ padding: 8.5px;
   font-weight: 100;
   color:grey;
 }
+
+
+/* FOOTER */
+
+.footer{
+  float:left;
+  padding-top: 60px;
+}
+
+.popular-posts{
+  border-top: 1px solid grey;
+font-family: 'Oswald';
+font-size: 61px;
+text-align: center;
+margin-left: -128px;
+margin-top: 18px;
+padding-top: 25px;
+color: hsla(208, 100%, 26%, 1);
+}
+.article-image-1{
+  float:left;
+  overflow:auto;
+  background-image: url("../img/article-image-1.jpg");
+  height: 330px;
+width: 325px;
+
+}
+
+.article-image-1> a{
+  text-decoration:none;
+}
+.article-image-1>a>span{
+  line-height:15;
+  margin-left:10px;
+  font-family: 'Open Oswald';
+  font-size: 20px;
+}
