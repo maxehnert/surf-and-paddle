@@ -350,26 +350,174 @@ padding: 8.5px;
 font-family: 'Oswald';
 font-size: 61px;
 text-align: center;
-margin-left: -128px;
+margin-left: -45px;
 margin-top: 18px;
 padding-top: 25px;
 color: hsla(208, 100%, 26%, 1);
 }
+
+.footer-images{
+  margin-left: -3.2%;
+  margin-top: -1.5%;
+}
+
+/* ARTICLE IMAGE 1 CONTENT */
 .article-image-1{
   float:left;
   overflow:auto;
+  opacity: .3;
+}
+
+.article-image-1:hover{
+  opacity: 1;
+}
+
+.article-image-1>a{
+  float:left;
+  text-decoration:none;
   background-image: url("../img/article-image-1.jpg");
   height: 330px;
-width: 325px;
-
+  width: 325px;
+  background-color:hsla(208, 100%, 37%, 0.33);
 }
 
-.article-image-1> a{
-  text-decoration:none;
-}
 .article-image-1>a>span{
-  line-height:15;
-  margin-left:10px;
-  font-family: 'Open Oswald';
-  font-size: 20px;
+line-height: 20.1;
+margin-left: 14px;
+font-family: 'Oswald';
+font-size: 30px;
+color: hsla(208, 100%, 26%, 1);
+}
+
+.article-image-1>a>span:hover{
+  color:white;
+}
+
+/* ARTICLE IMAGE 2 CONTENT */
+
+.article-image-2{
+  float:left;
+  overflow:auto;
+  opacity: .3;
+}
+
+.article-image-2:hover{
+  opacity: 1;
+}
+
+.article-image-2>a{
+  float:left;
+  text-decoration:none;
+  background-image: url("../img/article-image-2.jpg");
+  height: 330px;
+  width: 325px;
+  background-color:hsla(208, 100%, 37%, 0.33);
+}
+
+.article-image-2>a>span{
+line-height: 20.1;
+margin-left: 14px;
+font-family: 'Oswald';
+font-size: 30px;
+color: hsla(208, 100%, 26%, 1);
+}
+
+.article-image-2>a>span:hover{
+  color:white;
+}
+
+/* ARTICLE IMAGE 3 CONTENT */
+
+.article-image-3{
+  float:left;
+  overflow:auto;
+  opacity: .3;
+}
+
+.article-image-3:hover{
+  opacity: 1;
+}
+
+.article-image-3>a{
+  float:left;
+  text-decoration:none;
+  background-image: url("../img/article-image-3.jpg");
+  height: 330px;
+  width: 325px;
+  background-color:hsla(208, 100%, 37%, 0.33);
+}
+
+.article-image-3>a>span{
+line-height: 1.25;
+margin-left: 14px;
+font-family: 'Oswald';
+font-size: 30px;
+color: hsla(208, 100%, 26%, 1);
+vertical-align: top;
+position: absolute;
+width: 267px;
+margin-top: 243px;
+margin-left: 17px;
+}
+
+.article-image-3>a>span:hover{
+  color:white;
+}
+
+/* ARTICLE IMAGE 4 CONTENT */
+
+.article-image-4{
+  float:left;
+  overflow:auto;
+  opacity: .3;
+}
+
+.article-image-4:hover{
+  opacity: 1;
+}
+
+.article-image-4>a{
+  float:left;
+  text-decoration:none;
+  background-image: url("../img/article-image-4.jpg");
+  height: 330px;
+  width: 325px;
+  background-color:hsla(208, 100%, 37%, 0.33);
+}
+
+.article-image-4>a>span{
+line-height: 20.1;
+margin-left: 14px;
+font-family: 'Oswald';
+font-size: 30px;
+color: hsla(208, 100%, 26%, 1);
+}
+
+.article-image-4>a>span:hover{
+  color:white;
+}
+
+/* COPYRIGHT CONTENT */
+
+.copyright{
+  font-family: 'open sans';
+  float: left;
+padding: 30px;
+margin: 0 auto;
+padding-right: 517px;
+background-color: hsla(208, 100%, 18%, 1);
+font-size: 14px;
+color: hsla(208, 26%, 53%, 1);
+}
+
+.tiy-logo > img{
+  vertical-align:text-bottom;
+  position: relative;
+float: none;
+margin-left: 134px;
+margin-top: -4px;
+}
+
+.tiy-copyright{
+  margin-left: 8px;
 }
