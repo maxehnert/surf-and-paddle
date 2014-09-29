@@ -169,13 +169,13 @@ blockquote{
 }
 
 .links{
-  margin-top: -7px;
+padding-top: 5px;
 float: left;
 height: 25px;
 margin: 0 auto;
-width: 100%;
+width: 58.8%;
 padding-left: 0px;
-margin-left: 11px;
+margin-left: 165px;
 font-family: 'Open Sans';
 
 }
@@ -191,10 +191,11 @@ font-family: 'Open Sans';
 .link1{
 
 }
+
 #comment-link{
-  padding-top: 0px;
-  width: 158px;
-  margin-right: 13px;
+float: left;
+padding-top: 0px;
+width: 158px;
 }
 
 #icon-links{
@@ -211,14 +212,14 @@ margin-right: 15px;
 margin-top: 6px;
 }
 
-.link2{
-  margin-left: -3px;
+#link2{
+
 }
 
 #later-link{
-  padding-top: 0px;
-  width: 158px;
-  margin-right: 13px;
+padding-top: 0px;
+width: 128px;
+margin-left: 0px;
 }
 
 #icon-upload{
@@ -238,7 +239,7 @@ margin-right: 10px;
 }
 
 #share-link{
-  margin-right: 11px;
+float: right;
 padding-top: 0px;
 width: 154px;
 }
