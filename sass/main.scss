@@ -21,6 +21,14 @@ $c-color: hsla(0, 0%, 27%, 1);
   background-color:hsla(208, 100%, 37%, 0.33);
 }
 
+@mixin article-titles(){
+  line-height: 20.1;
+  margin-left: 14px;
+  font-family: $Oswald;
+  font-size: 30px;
+  color: hsla(208, 100%, 26%, 1);
+}
+
 head{
   font-family: $Oswald, sans-serif, $open-sans;
 }
@@ -163,6 +171,7 @@ ul.top-functions{
   padding-top: 6px;
   @include content();
 }
+
 blockquote{
   font-size: 27px;
   color: hsla(205, 67%, 55%, 1);
@@ -175,6 +184,38 @@ blockquote{
   font-family: $open-sans;
 }
 
+.social_button {
+  width: 187px;
+  float: left;
+  margin-right: 10px;
+}
+
+.social_button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.boxleft,
+.boxright {
+  background-color: hsla(205,8%,40%,1);
+  display: inline-block;
+  padding: 10px 13px;
+}
+
+.boxright {
+  background-color: hsla(206,18%,69%,1);
+  padding: 10px 15px 10px 10px;
+  margin-left: -4px;
+}
+
+.social_button:hover .boxleft {
+  background-color: hsla(204,82%,18%,1);
+}
+.social_button:hover .boxright {
+  background-color: hsla(206,84%,38%,1);
+}
+
+/*
 .links{
   padding-top: 5px;
   float: left;
@@ -183,7 +224,7 @@ blockquote{
   width: 58.8%;
   padding-left: 0px;
   margin-left: 165px;
-  font-family: $open-sans;
+  font-family: \$open-sans;
 }
 
 .links li{
@@ -228,7 +269,7 @@ blockquote{
 
 .read-later{
   float:right;
-  font-family:$open-sans;
+  font-family:\$open-sans;
   margin-top: 5px;
   font-size: 14px;
   margin-right: 10px;
@@ -251,7 +292,7 @@ blockquote{
 
 .share-this-post{
 
-}
+} */
 /* SIDEBAR */
 
 .sidebar{
@@ -375,11 +416,7 @@ blockquote{
 }
 
 .article-image-1>a>span{
-  line-height: 20.1;
-  margin-left: 14px;
-  font-family: $Oswald;
-  font-size: 30px;
-  color: hsla(208, 100%, 26%, 1);
+  @include article-titles();
 }
 
 .article-image-1>a>span:hover{
@@ -404,11 +441,7 @@ blockquote{
 }
 
 .article-image-2>a>span{
-  line-height: 20.1;
-  margin-left: 14px;
-  font-family: $Oswald;
-  font-size: 30px;
-  color: hsla(208, 100%, 26%, 1);
+  @include article-titles();
 }
 
 .article-image-2>a>span:hover{
@@ -467,11 +500,7 @@ blockquote{
 }
 
 .article-image-4>a>span{
-  line-height: 20.1;
-  margin-left: 14px;
-  font-family: $Oswald;
-  font-size: 30px;
-  color: hsla(208, 100%, 26%, 1);
+  @include article-titles();
 }
 
 .article-image-4>a>span:hover{
