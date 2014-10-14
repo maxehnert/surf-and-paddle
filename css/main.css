@@ -229,7 +229,8 @@ blockquote {
   text-decoration: underline;
   font-size: 13px;
   color: grey;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin-right: 67%;}
 
 .sidebar-heading {
   padding-top: 44px;
