@@ -1,5 +1,12 @@
-##This is my Surf and Paddle project.
+#This is my Surf and Paddle project.
 
-#This was edited in github.
+## Recreated a web page. First assignment attempting this.
 
-##Stuff
+How to use it:
+
+Clone my repo
+
+1. Run npm install
+2. Run bower install
+
+Libraries Used (jQuery, Underscore, SASS)
